@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="this is our website">
+    <meta name="auther "content=" md shanawaz">
+    <meta name="keywords" content="html,tutorial">
+    <title>all in one</title>
+    <style>
+        .table-heading{
+            color: chartreuse;
+        }
+        #main-heading{
+            color: crimson;
+        } 
+    .heading{
+        background-color:black;
+        color: darkgreen;
+    }
+    </style>
+</head>
+<body>
+    <h1 id="main-heading">This is heading</h1>
+    <div class="heading">
+    <h2>hello</h2> 
+    <h3>hello</h3>
+    <h4>hello</h4>
+    <h5>hello</h5>
+
+    </div>
+    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse iste expedita, aliquam commodi amet totam aspernatur autem! Ab, illum veniam!</p>
+    <hr>
+    <a href="https://google.com"target="blank">google link</a> <br><br>
+    <img src="html.png" alt="logo">
+    <h2 class="table-heading">table</h2>
+    <table border="1">
+        <thead>
+            <th>first name</th>
+            <th>last  name</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>md</td>
+                <td>shanawaz</td>
+            </tr>
+            <tr>
+                <td>md</td>
+                <td>alam</td>
+            </tr>
+            <tr>
+                <td>md</td>
+                <td>afzal</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>html form</h2>
+    <form >
+        <label for="username">username</label>
+        <input type="text" name="" id="username" placeholder="username"> <br>
+        <label for="password">password</label>
+        <input type="password" name="" id="password"placeholder="password"> <br>
+        <p>select your gender</p>
+        <label for="male">male</label>
+        <input type="radio" name="blank" id="male"><br>
+        <label for="female">female</label>
+        <input type="radio" name="blank" id="female"><br> 
+        <label for="country">country</label>
+        <select name="" id="country">
+            <option value="india">india</option>
+            <option value="nepal">nepal</option>
+            <option value="pakistan">pakistan</option>
+        </select>
+        <br> <br>
+        <p>type here</p>
+        <textarea name="" id="" cols="30" rows="10" placeholder="write about your self"></textarea> <br><br>
+        <input type="submit" value="sign In">
+    </form>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam sit dolorem itaque error omnis fuga iusto eligendi, a, tempore voluptates autem atque suscipit repellendus, cumque excepturi quia id? Quaerat, sed!</p> <br><br>
+    <p>this is less than symbol &lt;</p>
+    <p>this is grater than symbol &gt;</p>
+    <p>this is copy symbol &copy;</p>
+</body>
+</html>
+
+
